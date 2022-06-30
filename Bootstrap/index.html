@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap</title>
+    <link rel="stylesheet" href="./style.css">
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+</head>
+<body>
+    <section class="container p-5">
+        <!-- p-5 deu um padding de  50px -->
+        <h1 class="display-5 text-primary mb-5" >Seguros Jessy</h1>
+        <!-- display 5 por padrao do bootstrap ele definiu font-size como 3rem
+            e font-weight de 300 e mb-5 define margem-bottom de 5-->
+        <div class="row g-5">
+            <!-- no bootstrap row define linha e deu um gap de 5-->
+            <div class="col">
+                <!--no bootstrap depois de definir a div principal como row
+                agora as duas divs de dentro como col, ele separa em duas
+            colunas-->
+                <h2 class="display-5">Ouro</h2>
+                <p class="lead text-secondary mb-4">O plano ouro garante todos os beneficios</p>
+                <!--lead define um texto um pouco maior que o normal do p, e 
+                    text-secondary define o texto na cor cinza claro e mb margin bottom de 4 -->
+                <a href="./" class="btn btn-primary btn-lg">Comprar plano</a>
+            </div>
+            <div class="col">
+                <h2 class="display-5">Prata</h2>
+                <p class="lead text-secondary mb-4">O plano prata garante todos os beneficios</p>
+                
+                <a href="./" class="btn btn-primary btn-lg">Comprar plano</a>
+                <!-- btn define button, btn-primary define a cor azul e btn-lg define
+                button large, o tamanho do botão -->
+            </div>
+            
+
+        </div>
+
+
+    </section>
+</body>
+</html>
